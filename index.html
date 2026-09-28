@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Toy Haven online toy store">
+
+    <title>Toy Haven - Home</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" href="favicon.png">
+
+    <link rel="manifest" href="manifest.json">
+</head>
+
+
+<body>
+<header>
+    <nav>
+        <h1 class="logo">
+            <a href="index.html">Toy Haven</a>
+        </h1>
+        <button
+            class="menu-button"
+            id="menuButton"
+            aria-label="Open navigation menu">
+            ☰
+        </button>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="cart.html">Cart</a>
+            <a href="wishlist.html">Wishlist</a>
+            <a href="feedback.html">Feedback</a>
+        </div>
+    </nav>
+</header>
+<main>
+    <section class="hero">
+        <div class="hero-content">
+            <h1 id="heroTitle">
+                Welcome to Toy Haven!
+            </h1>
+            <p id="heroText">
+                Your one-stop shop for all things fun and playful.
+            </p>
+            <a href="products.html" class="main-button">
+                Shop Now
+            </a>
+        </div>
+        <img
+            id="heroImage"
+            src="images/toy-car.png"
+            alt="Toy Haven promotional product">
+    </section>
+    <section class="featured">
+        <h2>Featured Product of the Day</h2>
+        <div id="featuredProduct"
+             class="featured-product">
+        </div>
+    </section>
+    <section class="home-categories">
+        <h2>Explore Toy Haven</h2>
+        <div class="category-grid">
+            <article>
+                <h3>Figurines</h3>
+                <p>Discover collectible characters.</p>
+            </article>
+            <article>
+                <h3>Toys</h3>
+                <p>Fun toys for children of all ages.</p>
+            </article>
+            <article>
+                <h3>Board Games</h3>
+                <p>Bring everyone together for game night.</p>
+            </article>
+            <article>
+                <h3>Diecast Cars</h3>
+                <p>Explore our model car collection.</p>
+            </article>
+        </div>
+    </section>
+</main>
+<footer>
+    <h2>Toy Haven</h2>
+    <p>
+        Your one-stop shop for all things fun and playful.
+    </p>
+    <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="cart.html">Cart</a>
+        <a href="wishlist.html">Wishlist</a>
+        <a href="feedback.html">Feedback</a>
+    </div>
+    <div class="newsletter">
+        <h3>Subscribe to our Newsletter</h3>
+        <form id="newsletterForm">
+            <input
+                type="email"
+                id="newsletterEmail"
+                placeholder="Enter your email"
+                required>
+            <button type="submit">
+                Subscribe
+            </button>
+        </form>
+    </div>
+    <p>
+        &copy; 2026 Toy Haven. All rights reserved.
+    </p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

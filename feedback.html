@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+          content="Toy Haven feedback and support">
+    <title>Toy Haven - Feedback</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.png">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+<header>
+    <nav>
+        <h1 class="logo">
+            <a href="index.html">Toy Haven</a>
+        </h1>
+        <button
+            class="menu-button"
+            id="menuButton"
+            aria-label="Open navigation menu">
+            ☰
+        </button>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="cart.html">Cart</a>
+            <a href="wishlist.html">Wishlist</a>
+            <a href="feedback.html">Feedback</a>
+        </div>
+    </nav>
+</header>
+<main>
+    <section class="feedback-section">
+        <h1>Feedback & Support</h1>
+        <p>
+            Tell us about your Toy Haven experience.
+        </p>
+        <form id="feedbackForm">
+            <label for="feedbackName">
+                Name
+            </label>
+            <input
+                type="text"
+                id="feedbackName"
+                required>
+            <label for="feedbackEmail">
+                Email
+            </label>
+            <input
+                type="email"
+                id="feedbackEmail"
+                required>
+            <label for="feedbackMessage">
+                Message
+            </label>
+            <textarea
+                id="feedbackMessage"
+                required>
+            </textarea>
+            <button
+                type="submit"
+                class="main-button">
+                Submit Feedback
+            </button>
+        </form>
+    </section>
+    <section class="faq-section">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <button class="faq-question">
+                How long does delivery take?
+            </button>
+            <div class="faq-answer">
+                <p>
+                    Delivery usually takes
+                    3 to 5 working days.
+                </p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">
+                Can I return a product?
+            </button>
+            <div class="faq-answer">
+                <p>
+                    Products can be returned within
+                    7 days if they are unused and
+                    in their original condition.
+                </p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">
+                What payment methods are available?
+            </button>
+            <div class="faq-answer">
+                <p>
+                    Toy Haven supports simulated
+                    card payments and cash on delivery.
+                </p>
+            </div>
+        </div>
+    </section>
+</main>
+<footer>
+    <h2>Toy Haven</h2>
+    <p>
+        Your one-stop shop for all things fun and playful.
+    </p>
+    <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="cart.html">Cart</a>
+        <a href="wishlist.html">Wishlist</a>
+        <a href="feedback.html">Feedback</a>
+    </div>
+    <p>
+        &copy; 2026 Toy Haven. All rights reserved.
+    </p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
